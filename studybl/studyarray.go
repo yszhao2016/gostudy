@@ -1,0 +1,5 @@
+package studybl
+
+func Studyarray() {
+
+}
