@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"studygo/studybl"
+	"gostudy/studybl"
 )
 
 const SS = "234dfgdfg" //它是常量
