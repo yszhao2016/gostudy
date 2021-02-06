@@ -2,6 +2,11 @@ package studybl
 
 import "fmt"
 
+type test func()
+
+type test2  int
+
+
 type Animal interface {
 	Eat()
 	Run()
@@ -15,6 +20,7 @@ type Dog struct {
 type Cat struct {
 	Name string
 }
+
 
 func (c Dog) Run() {
 	fmt.Printf("%v在跑\n", c.Name)
